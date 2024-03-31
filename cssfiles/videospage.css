@@ -1,0 +1,66 @@
+
+.entirepage{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+   column-gap: 10px;
+   padding-top: 90px;
+   padding-left: 150px;
+   padding-right: 30px;
+   background-color: rgba(255, 255, 255, 0.984);
+}
+.channel_layout{
+    margin-bottom: 25px;
+}
+  
+.discription{
+     display:grid;
+     grid-template-columns: 50px 1fr;
+     margin-top: 15px;
+ }
+ .thumnaildiv{
+display: inline-block;
+
+
+}
+.thumnail{
+    cursor: pointer;
+    vertical-align: top;
+    display: inline-block;
+    width:100%;
+    border-radius: 10px;
+    }
+    .profilepic{
+        width: 50px;
+        border-radius: 25px;
+    }
+    .profilediv{
+        display: inline-block;
+    }
+.about{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight:600;
+        font-family: Roboto;
+       }
+     .channelname{
+        margin-top: 2px;
+       
+        margin-bottom: 0px;
+        font-family: Roboto;
+        color: gray;
+       
+       }
+    .subdiscription{
+        display:inline-block;
+        grid-template-columns: 1fr;
+        vertical-align: top;
+        margin-left: 15px;
+       
+    }
+    .views{
+      
+        margin-top: 2px;
+        color: gray;
+        font-family: Roboto;
+        
+    }

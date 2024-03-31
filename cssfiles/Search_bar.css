@@ -1,0 +1,100 @@
+.searchbar{
+   display:flex;
+    height: 75px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(234, 232, 232) ;
+    border-bottom-width:2px ;
+}
+.leftdiv{
+    display: flex;
+    width:300px;
+    margin-right: 80px;
+    align-items: center;
+}
+.hamburgerdiv{
+    margin-left: 30px;
+}
+.hamburger{
+    width: 25px;
+    cursor: pointer;
+}
+.youtube_logodiv{
+    margin-left: 40px;
+}
+.youtube_logo{
+    width: 120px;
+    border-radius: 3px;
+}
+.search{
+    height: 25px;
+    width: 200px;
+   }
+
+.searchbardiv{
+    display: flex;
+    width: 710px;
+    margin-right: 120px;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.search_text{
+    height: 51px;
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(205, 203, 203);
+     border-top-left-radius: 25px;
+     border-bottom-left-radius: 25px;
+    font-size: 16px;
+    padding-left: 20px;
+   
+   }
+   .search_text::placeholder{
+    font-family:Roboto;
+    font-size: 20px;
+   }
+   .search_button{
+    height: 56px;
+    width: 80px;
+    margin-left: -1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(205, 203, 203);
+    
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+   }
+.search_icon{
+    width: 25px;
+}
+.mic_button{
+    height: 56px;
+    width: 56px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+}
+.mic_icon{
+    width: 20px;
+}
+.accountsdiv{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+}
+img{
+    width: 25px;
+}
